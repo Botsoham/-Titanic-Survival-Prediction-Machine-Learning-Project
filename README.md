@@ -75,6 +75,20 @@ I explored, analyzed, and visualized the dataset, then built predictive models t
 ✅ **Random Forest** performed best and was selected for deployment.
 
 ---
+## 🚀 Streamlit Web App
+
+This project includes an interactive **Streamlit app** that predicts Titanic passenger survival using the trained ML model.
+
+### 🧠 How I Used Streamlit
+- Built a simple web UI using Streamlit  
+- Took user inputs (age, class, gender, etc.)  
+- Loaded the trained model (`.joblib`)  
+- Displayed prediction results instantly (✅ Survived / ❌ Not Survived)
+
+### ⚙️ Run the App
+```bash
+pip install streamlit joblib
+streamlit run app.py
 
 
 
